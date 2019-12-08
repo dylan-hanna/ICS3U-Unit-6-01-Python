@@ -17,7 +17,7 @@ def main():
         random_number.append(random_numbers)
     print("")
 
-    print("Your 5 random numbers:")
+    print("Your 10 random numbers:")
 
     for loop_counter in range(0, 10):
         print("{0}, ".format(random_number[loop_counter]), end="")
